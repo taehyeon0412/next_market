@@ -1,7 +1,7 @@
 export default function Home() {
   return (
-    <div className="bg-slate-400 py-20 px-10 grid gap-10 justify-center min-h-screen">
-      <div className="bg-white p-10 rounded-3xl shadow-xl w-96">
+    <div className="bg-slate-400 py-20 px-10 grid gap-10 lg:grid-cols-2 xl:grid-cols-3 justify-center min-h-screen">
+      <div className="bg-white sm:bg-purple-300 md:bg-teal-300 lg:bg-indigo-400 xl:bg-yellow-200 2xl:bg-blue-200 p-10 rounded-3xl shadow-xl ">
         <span className="font-semibold text-3xl">Select Item</span>
         <div className="flex justify-between mb-2">
           <span className="text-gray-500 my-2">Grey Chair</span>
@@ -17,13 +17,13 @@ export default function Home() {
         </div>
         <button
           className="mt-5 bg-blue-500 text-white p-2 text-center rounded-xl w-1/2 mx-auto
-         hover:bg-teal-500 active:bg-yellow-500 focus:text-red-500"
+       hover:bg-teal-500 active:bg-yellow-500 focus:text-red-500"
         >
           Checkout
         </button>
       </div>
 
-      <div className="bg-white overflow-hidden rounded-3xl shadow-xl w-96 group">
+      <div className="bg-white overflow-hidden rounded-3xl shadow-xl  group">
         <div className="bg-blue-500 p-6 pb-14 ">
           <span className="text-white text-2xl">Profile</span>
         </div>
@@ -50,7 +50,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bg-white p-10 rounded-3xl shadow-xl w-96">
+      <div className="bg-white p-10 rounded-3xl shadow-xl  lg:col-span-2 xl:col-span-1">
         <div className="flex justify-between items-center mb-6">
           <span>⬅</span>
 
@@ -93,12 +93,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
-      <form className="flex flex-col space-y-2 bg-blue-300 focus-within:bg-blue-100">
-        <input type="text" required placeholder="Username" />
-        <input type="password" required placeholder="Password" />
-        <input type="submit" value="Login" />
-      </form>
     </div>
   );
 }
