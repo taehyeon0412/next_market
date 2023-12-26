@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <div className="bg-slate-400 py-20 px-10 grid gap-10 lg:grid-cols-2 xl:grid-cols-3 justify-center min-h-screen">
-      <div className="bg-white sm:bg-purple-300 md:bg-teal-300 lg:bg-indigo-400 xl:bg-yellow-200 2xl:bg-blue-200 p-10 rounded-3xl shadow-xl ">
+      <div className="bg-white dark:bg-black sm:bg-purple-300 md:bg-teal-300 lg:bg-indigo-400 xl:bg-yellow-200 2xl:bg-blue-200 p-10 rounded-3xl shadow-xl ">
         <span className="font-semibold text-3xl">Select Item</span>
         <div className="flex justify-between mb-2">
           <span className="text-gray-500 my-2">Grey Chair</span>
